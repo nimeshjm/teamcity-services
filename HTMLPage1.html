@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        /* cellpadding */
+        th, td { 
+            padding: 5px; 
+            border: 1px solid black;
+        }
+
+        /* cellspacing */
+        table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
+        table { border-collapse: collapse; border-spacing: 0; }   /* cellspacing="0" */
+
+        /* valign */
+        th, td {
+            vertical-align: top;
+            height: 10px;
+        }
+
+        /* align (center) */
+        table { margin: 0 auto; }
+    </style>
+    <meta charset="utf-8" />
+    <title>builds</title>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <th>
+                    Project
+                </th>
+                <th>
+                    Version
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Kotlin
+                </td>
+                <td>
+                    <object type="text/html" data="https://teamcity.jetbrains.com/guestAuth/app/rest/builds/pinned:true,project:Kotlin/number" height="30"></object>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
